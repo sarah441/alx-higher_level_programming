@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-to check if the type is the same 
+to check if the type is the same
 """
 
 
