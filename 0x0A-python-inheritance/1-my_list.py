@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-Creating my list to be sorted
+contains the MyList class
 """
 
 
 class MyList(list):
-    """babyclass of list"""
+    """a baby class of list"""
     def __init__(self):
+        """construct"""
         super().__init__()
 
     def print_sorted(self):
         """prints sorted list"""
-        self.sort()
-        print(self)
+        print(sorted(self))
